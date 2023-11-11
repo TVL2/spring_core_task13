@@ -15,14 +15,14 @@ public class Config {
         OrderService orderService = new OrderService();
         orderService.cart.add(new Product((long) 1, "Pepsi", 200.15f));
         orderService.cart.add(new Product((long) 2, "Sprite", 200.15f));
-        orderService.cart.add(new Product((long) 1, "Rich cola", 100.15f));
-        orderService.cart.add(new Product((long) 2, "Rich tonic", 100.15f));
-        orderService.cart.add(new Product((long) 1, "Frustyle",100.15f));
-        orderService.cart.add(new Product((long) 2, "Mojito", 100.15f));
-        orderService.cart.add(new Product((long) 1, "Fantola", 50.15f));
-        orderService.cart.add(new Product((long) 2, "Street", 50.15f));
-        orderService.cart.add(new Product((long) 1, "Dobriy", 50.15f));
-        orderService.cart.add(new Product((long) 2, "Tarxyn", 50.15f));
+        orderService.cart.add(new Product((long) 3, "Rich cola", 100.15f));
+        orderService.cart.add(new Product((long) 4, "Rich tonic", 100.15f));
+        orderService.cart.add(new Product((long) 5, "Frustyle",100.15f));
+        orderService.cart.add(new Product((long) 6, "Mojito", 100.15f));
+        orderService.cart.add(new Product((long) 7, "Fantola", 50.15f));
+        orderService.cart.add(new Product((long) 8, "Street", 50.15f));
+        orderService.cart.add(new Product((long) 9, "Dobriy", 50.15f));
+        orderService.cart.add(new Product((long) 10, "Tarxyn", 50.15f));
         return orderService;
     }
 

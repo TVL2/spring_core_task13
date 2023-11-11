@@ -13,5 +13,6 @@ public class Main {
 
         context.getBean("productService", ProductService.class).printAll();
         context.getBean("orderService", OrderService.class).order();
+        context.getBean("productService", ProductService.class).findByTitle("Sprite");
     }
 }
